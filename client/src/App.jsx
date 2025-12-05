@@ -7,6 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Admin from "./components/Admin/Admin";
 import Contact from "./components/Contact/Contact";
 import CursorTrail from "./components/CursorTrail/CursorTrail";
+import Experience from "./components/Experience/Experience";
 import "./App.css";
 
 
@@ -47,6 +48,7 @@ export default function App() {
             <CursorTrail />
               <StickyNavbar />
               <About />
+              <Experience />
               <Projects />
               <Skills />
               <Contact />

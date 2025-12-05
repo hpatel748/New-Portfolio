@@ -12,14 +12,6 @@ const projectData = [
     code: "https://github.com/Hxrshmxllow/Spotify",
   },
   {
-    title: "NobleMart",
-    description:
-      "An AI-powered e-commerce site for fragrances with UPC-based inventory sync to Amazon & eBay.",
-    tags: ["Python", "Flask", "React", "AWS", "DyanamoDB", "OpenAI API"],
-    live: "http://noblemart.s3-website-us-east-1.amazonaws.com/",
-    code: "https://github.com/Hxrshmxllow/noblemart",
-  },
-  {
     title: "Trading Bot",
     description:
       "An intelligent trading bot using Python, Alpaca API, and LSTM-based models for automated stock and options execution.",
@@ -34,6 +26,14 @@ const projectData = [
     tags: ["Python", "Flask", "React", "GCP", "Firebase", "Selenium"],
     live: null,
     code: "https://github.com/Hxrshmxllow/PrepAI",
+  },
+  {
+    title: "Revvo — AI-Powered Car Buying Platform",
+    description:
+      "AI platform that personalizes car recommendations, analyzes real listings, predicts insurance + depreciation, and provides honest LLM-powered insights for used-car buyers.",
+    tags: ["React", "TypeScript", "Flask", "OpenAI", "Firebase", "Auto.dev", "Recharts"],
+    live: null,
+    code: "https://github.com/Hxrshmxllow/HackPrincetonF25",
   },
   {
     title: "AI-Powered Chess Game",

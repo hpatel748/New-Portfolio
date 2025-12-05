@@ -13,7 +13,7 @@ export default function StickyNavbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const links = ["About", "Projects", "Skills", "Contact"];
+  const links = ["About", "Experience", "Projects", "Skills", "Contact"];
 
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
