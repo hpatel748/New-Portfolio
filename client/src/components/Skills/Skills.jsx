@@ -2,9 +2,36 @@ import React, { useEffect, useRef } from "react";
 import "./Skills.css";
 
 const skillsData = {
-  Languages: ["Python", "C", "C++", "JavaScript", "SQL", "HTML/CSS"],
-  Frameworks: ["React", "Flask", "Firebase", "Node.js", "TensorFlow"],
-  Tools: ["Git", "Docker", "VS Code", "GCP", "AWS", "Postman"],
+  Languages: [
+    "Python",
+    "Java",
+    "C",
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "SQL",
+    "PostgreSQL",
+    "HTML/CSS",
+  ],
+  "Frameworks & Libraries": [
+    "Flask",
+    "FastAPI",
+    "Django",
+    "Angular",
+    "React",
+    "React Native (Expo)",
+  ],
+  "Developer Tools & Cloud": [
+    "Git",
+    "ESLint",
+    "Prettier",
+    "Docker",
+    "RESTful APIs",
+    "CI/CD Pipelines",
+    "AWS",
+    "GCP",
+    "Azure",
+  ],
 };
 
 export default function Skills() {
@@ -33,7 +60,7 @@ export default function Skills() {
     <section id="skills" ref={sectionRef} className="skills">
       <h2 className="skills-title">Technical Skills</h2>
       <p className="skills-subtitle">
-        Tools and technologies I use to build, analyze, and deploy scalable systems.
+        Languages, frameworks, developer tools, and cloud platforms from my experience.
       </p>
 
       <div className="skills-grid">

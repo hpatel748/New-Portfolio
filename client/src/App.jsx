@@ -48,7 +48,7 @@ export default function App() {
             <CursorTrail />
               <StickyNavbar />
               <About />
-              <Experience />
+
               <Projects />
               <Skills />
               <Contact />
